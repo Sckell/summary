@@ -1,0 +1,142 @@
+.page__team {
+    background: #172D42;
+    padding: 55px 0 41px 0;
+    margin: 0px 0px 24px 0px;
+}
+.team__container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.team__item {
+}
+
+
+.team__title {
+    margin: 0px 0px 49px 0px;
+    position: relative;
+}
+.team__title::after{
+    content: '';
+    position: absolute;
+    top:100%;
+    left:47.5%;
+    width:100%;
+    height:100%;
+
+    width: 36px;
+    height: 3px;
+    background: #C9C9C9;
+    border-radius: 2px;
+}
+.team__title-text {
+    color: #fff;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+
+.team__cards {
+    display:flex;
+    justify-content: space-between;
+}
+
+.team__card {
+    text-align: center;
+    max-width: 297px;
+
+
+}
+.team__card-body {
+    padding: 9px 36px 24px 42px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF555A;
+    box-shadow: 0px 8px 16px 5px rgba(114, 114, 114, 0.25);
+    border-radius: 10px;
+}
+.team__card-img {
+    margin: 0px 0px 12px 0px;
+}
+.team__card-image {
+    max-width: 108px;
+    max-height: 108px;
+}
+.team__card-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF555A;
+    margin: 0px 0px 6px 0px;
+}
+.team__card-profession {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #666666;
+    margin: 0px 0px 8px 0px;
+}
+.team__card-subtitle {
+    max-width: 219px;
+    margin: 0 auto;
+
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0px 0px 44px 0px;
+}
+.team__card-social {
+    display:flex;
+    justify-content: space-between;
+}
+.team__card-social-link {
+
+}
+.team__card-social-img {
+
+}
+
+
+.team__card-active {
+    background: #FF555A;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.team__card-name-active {
+    color: #172D42;
+}
+.team__card-profession-active {
+    color: #172D42;
+}
+.team__card-subtitle-active {
+    color: #FFFFFF;
+}
+
+@media(max-width:1250px){
+    .team__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+    .team__card {
+        flex: 0 1 50%;
+        max-width: unset;
+        padding: 10px;
+    }
+    
+    .team__card-subtitle{
+        max-width: unset;
+    }
+}
+
+@media(max-width:627px){
+    .team__card {
+        flex: 0 1 100%;
+        max-width: unset;
+        padding: 10px;
+    }
+}

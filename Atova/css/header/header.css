@@ -1,0 +1,90 @@
+.header {
+}
+
+
+.page__header {
+    background-color: #fff;
+}
+.header__container {
+    max-width: 1307px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__logo {
+    padding: 10px 0px 0px 0px;
+}
+
+
+.hedaer__content {
+    display: flex;
+    align-items: center;
+    padding: 49px 0px;
+}
+
+.hedaer__menu {
+    margin-right: 80px;
+}
+.header__list {
+}
+.hedaer__link{
+    display: flex;
+}
+.header__list-link {
+    position: relative;
+}
+.header__list-link:not(:last-child){
+    margin-right: 60px;
+}
+.header-list__link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #696968;
+}
+.header__list-link--active {
+    color: #E9252B;
+}
+.header__list-link-img::after{
+    content: '';
+    position: absolute;
+    top:25%;
+    right:;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+
+
+    background: url(../../img/header/arrow-down-sign-to-navigate\ 1icon.svg) no-repeat;
+}
+
+.hedaer__form {
+    display: flex;
+}
+.hedaer__form-btn {
+
+}
+.hedaer__form-btn-text{
+    padding: 8px 23px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.hedaer__form-btn:not(:last-child){
+    margin: 0px 12px 0px 0px;
+}
+.hedaer__form-btn-in-text{
+    color: #172D42;
+    border: 1px solid #FF555A;
+    border-radius: 4px;
+}
+.hedaer__form-btn-up-text{
+    background: #FF555A;
+    border-radius: 4px;
+    color: #fff;
+}

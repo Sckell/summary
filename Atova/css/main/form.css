@@ -1,0 +1,147 @@
+.page__form {
+    margin: 0px 0px 31px 0px;
+}
+.form__container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.form__item {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.form__content {
+    max-width: 552px;
+    display: flex;
+    flex-direction: column;
+}
+.form__content-text{
+    flex: 1 1 100%;
+}
+.form__content-title {
+    margin: 0px 0px 27px 0px;
+}
+.form__content-title-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #172D42;
+}
+.form--color {
+    color: #EF3F24;
+}
+.form__content-subtitle {
+    max-width: 467px;
+    margin: 0px 0px 27px 0px;
+}
+.form__content-subtitle-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144%;
+    color: #000000;
+}
+.form__content-btn {
+    border-radius: 3px;
+    margin: 0px 0px 50px 0px;
+}
+.form__content-btn-link {
+    padding: 8.5px 22px;
+    background: #FF555A;
+    color: #fff;
+}
+.form__content-video {
+}
+
+
+.form__input {
+    max-width: 704px;
+    width: 100%;
+    max-height: 532px;
+
+    background-image: url(../../img/main/form/pexels-andrea-piacquadio-3760263\ 2bacg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 23px 65px;
+
+    position: relative;
+}
+.form__input::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    background: rgba(23, 45, 66, 0.8);
+    border-radius: 6px;
+}
+.form__input-body{
+    position: relative;
+    z-index: 2;
+}
+.form__input-title {
+}
+.form__input-title-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FF555A;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+.form__input-registr {
+}
+
+
+.form {
+    display:flex;
+    flex-direction: column;
+}
+.form>*:not(:last-child){
+    margin: 0px 0px 34px 0px;
+}
+
+.form__input-name {
+}
+.form-input {
+    padding: 16px 51px 18px 31px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 30px;
+    width: 100%;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #666666;
+}
+.form__input-mobile {
+}
+.form__input-email {
+}
+.form__input-list {
+}
+.form__input-link {
+}
+.form__input-btn {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+
+    padding: 8px 0 15px 0;
+    background: #FF555A;
+    border-radius: 5px;
+}
+
+@media(max-width:1310px){
+    .form__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
