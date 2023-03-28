@@ -1,0 +1,131 @@
+.page__services {
+	margin: 0px 0px 58px 0px;
+}
+.services__container {
+}
+
+.services__item {
+}
+.services__cards {
+}
+
+.services__cards-top {
+	display:flex;
+	justify-content: space-between;
+}
+.services__cards-top:not(:last-child){
+	margin: 0px 0px 42px 0px;
+}
+.services__cards-top-image {
+	padding: 0px 10px 0px 0px;
+}
+.services__card-big {
+	max-width: 524px;
+	display:flex;
+	justify-content: end;
+	flex-direction: column;
+}
+.services-card {
+}
+.services-card__title {
+}
+.services-card__title:not(:last-child){
+	margin: 0px 0px 14px 0px;
+}
+.services-card__title-text {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #C47A5E;
+}
+.services-card__subtitle {
+	margin: 0px 0px 20px 0px;
+}
+
+.services-card__subtitle-text {
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: #513125;
+}
+
+.services__card {
+	max-width: 524px;
+}
+.services__card-item {
+	padding: 30px;
+}
+.services__card-item-bckg2 {
+	background: #C47A5E;
+}
+.services__card-item-bckg3{
+	background: #513125;
+}
+.services__card-item>*:not(:last-child){
+	margin: 0px 0px 24px 0px;
+}
+.services__card-title {
+}
+.services__card-title-text {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.services__card-title-text2{
+	color: #513125;
+}
+.services__card-subtitle {
+}
+.services__card-subtitle-text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #D9D9D9
+}
+.services__card-subtitle-text2{
+	color: #936351;
+}
+.services__card-btn {
+
+}
+.services__card-btn a{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: justify;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.services__card-btn2 a {
+	color: #513125;
+}
+.services__cards-bottom {
+	display:flex;
+	justify-content: space-between;
+}
+.services__card-item3 {
+}
+
+@media(max-width:1060px){
+	.services__cards-top{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.services__cards-bottom{
+		flex-wrap: wrap-reverse;
+		justify-content: center;
+	}
+	.services__cards-top-image {
+		padding: 0px 0px 0px 0px;
+	}
+	.services__cards-top-image img{
+		width: 100%;
+	}
+}

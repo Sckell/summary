@@ -1,0 +1,126 @@
+.page__blog {
+	margin: 0px 0px 113px 0px;
+}
+.blog__container {
+}
+.blog__item {
+}
+.blog__content {
+	margin: 0px 0px 24px 0px;
+}
+.blog__content-text {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 44px;
+	text-transform: uppercase;
+	color: #C47A5E;
+}
+.blog__content-title {
+}
+.blog__content_title-text {
+	font-weight: 600;
+	font-size: 58px;
+	line-height: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #513125;
+}
+.blog__content-subtitle {
+}
+.blog__content_subtitle-text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #4C4C4C;
+}
+.blog__cards {
+	max-width: 878px;
+	margin: 0 auto;
+}
+.blog__cards-item {
+	display:flex;
+	justify-content: space-between;
+}
+.blog__card {
+	max-width: 414px;
+}
+.blog__card:not(:last-child){
+	margin: 0px 0px 48px 0px;
+}
+.blog__card-img {
+}
+.blog__cards-title {
+}
+.blog__cards-title-text {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #513125;
+}
+.blog__cards-title-text span{
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #707070;
+}
+.blog__dots {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.blog__dot {
+	height: 18px;
+	width: 18px;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.blog__dot:not(:last-child){
+	margin: 0px 22px 0px 0px;
+}
+.blog__dot-active{
+	height: 18px;
+	width: 18px;
+	background: #D9D9D9;
+	border: 2px solid #000000;
+	border-radius: 50%;
+}
+
+@media(max-width:880px){
+	.blog__cards-item{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.blog__card{
+		flex: 0 1 100%;
+		max-width: none;
+	}
+	.blog__card-img{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.blog__cards-title-text{
+		font-size: 26px;
+	}
+	.blog__card:not(:last-child){
+		margin: 0px 0px 20px 0px;
+	}
+	.blog__card:last-child{
+		margin: 0px 0px 15px 0px;
+	}
+}
+@media(max-width:440px){
+	.blog__card-img img{
+		width: 100%;
+	}
+}
+
+.hidden{
+	display: none;
+}
