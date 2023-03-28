@@ -1,0 +1,204 @@
+.main{
+
+}
+.page__marlo{
+	background-color: #0B3948;
+    height: 770px;
+    z-index: -5;
+
+}
+.marlo__img-backg {
+    max-width: 1423px;
+    margin: 0 auto;
+}
+.marlo__img-backg img{
+    position: absolute;
+    top:0;
+    left:-9.5%;
+    max-width: 1423px;
+    max-height: 927px;
+    margin: 0 auto;
+    z-index: -5;
+}
+
+.marlo__container {
+    position: relative;
+    z-index: 20;
+}
+.marlo__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 0px 0px 0px;
+}
+.marlo__img-posa {
+
+}
+.marlo__img-image {
+    position: absolute;
+    top:10%;
+    left:28%;
+    height: 100%;
+    z-index: -4;
+}
+.marlo__img-image-center{
+    max-width: 520px;
+    max-height: 600px;
+}
+.marlo__img-posa-shop {
+    position: absolute;
+    top:58%;
+    left:-15%;
+    width:100%;
+    height:100%;
+    max-width: 150px;
+    max-height: 150px;
+}
+.marlo__img-posa-star {
+    position: absolute;
+    top:0;
+    left:60%;
+    width:100%;
+    height:100%;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+
+.marlo__left {
+    width: 100%;
+    max-width: 722px;
+}
+.marlo__left-conten {
+
+}
+.marlo__left-content-name {
+    margin: 0px 0px 120px 0px;
+}
+.marlo__left-content-name-text {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 120%;
+    color: #fff;
+}
+.marlo__left-content-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 180%;
+    color: #fff;
+    position: relative;
+}
+.marlo__left-content-text::before{
+    content: '';
+    width: 60px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top:-20px;
+    left:0;
+}
+
+
+
+
+.marlo__right {
+    max-width: 300px;
+}
+.marlo__right-content {
+    height: 480px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.marlo__right-content-text {
+}
+.marlo__right-content-quotes {
+    display: block;
+    margin: 0px 0px 40px 0px;
+}
+.marlo__right-content-text-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF
+}
+.marlo__right-content-social {
+}
+.marlo__right-content-social-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 50px 0px;
+}
+.marlo__right-content-social-img {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.marlo__right-content-social-img::before{
+    content: '';
+    width: 60px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    top:-20px;
+    left:80%;
+}
+.marlo__right-content-social-img>*:not(:last-child){
+    margin: 0px 10px 0px 0px;
+}
+.marlo__right-content-social-img img{
+    min-height: 32px;
+    min-width: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    background: #FF7A03;
+    padding: 8px;
+}
+
+@media(max-width:1150px){
+    .marlo__item {
+    }
+    .marlo__right {
+    }
+
+
+    .marlo__img-image-center {
+        width: 100%;
+    }
+
+    .marlo__left-content-name {
+        max-width: 500px;
+        padding-right: 10px;
+        margin: 0px 0px 240px 0px;
+    }
+    .marlo__left-content-name-text {
+        font-size: 60px;
+    }
+
+}
+
+@media(max-width:770px){
+    .marlo__img-image {
+        left: 14%;
+    }
+    .marlo__left-content-name {
+        max-width: 300px;
+    }
+    .marlo__left-content-name-text {
+        font-size: 50px;
+    }
+    .marlo__right-content-text-title {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:630px){
+    .marlo__img-image {
+        left: 7%;
+    }
+}
